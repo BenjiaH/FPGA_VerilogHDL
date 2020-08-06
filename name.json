@@ -1,0 +1,13 @@
+{
+    "dir1" : "rtl_work",
+	"dir2" : "verilog_libs",
+	"dir3" : "db",
+	"dir4" : "incremental_db ",
+    "file1" : "*.rps",
+    "file2" : "*.qsmg",
+    "file3" : "*.bak",
+    "file4" : "*.do",
+    "file5" : "*.wlf",
+    "file6" : "modelsim.ini",
+    "file7" : "msim_transcript"
+}
