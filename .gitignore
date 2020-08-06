@@ -1,1 +1,12 @@
 *.lnk
+rtl_work/
+verilog_libs/
+db/
+incremental_db/
+*.rpt
+*.qsmg
+*.bak
+*.do
+*.wlf
+modelsim.ini
+msim_transcript
