@@ -1,9 +1,9 @@
 {
     "notinc1" : ".git",
     "dir1" : "rtl_work",
-	"dir2" : "verilog_libs",
-	"dir3" : "db",
-	"dir4" : "incremental_db ",
+    "dir2" : "verilog_libs",
+    "dir3" : "db",
+    "dir4" : "incremental_db ",
     "file1" : "*.rpt",
     "file2" : "*.qsmg",
     "file3" : "*.bak",
