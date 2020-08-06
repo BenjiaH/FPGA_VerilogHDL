@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jul 08 13:33:50 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : blocking
+Top-level Entity Name : blocking
+Family : Cyclone IV E
+Total logic elements : 4
+    Total combinational functions : 0
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

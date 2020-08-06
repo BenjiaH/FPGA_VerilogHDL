@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jul 19 16:31:35 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : seg_595_static
+Top-level Entity Name : seg_595_static
+Family : Cyclone IV E
+Total logic elements : 73
+    Total combinational functions : 72
+    Dedicated logic registers : 47
+Total registers : 47
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

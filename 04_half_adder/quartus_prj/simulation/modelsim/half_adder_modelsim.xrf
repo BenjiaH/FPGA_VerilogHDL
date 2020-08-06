@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, E:/Users/benji/OneDrive/FPGA_Project/Study/04_half_adder/sim/tb_half_adder.v
+source_file = 1, E:/Users/benji/OneDrive/FPGA_Project/Study/04_half_adder/rtl/half_adder.v
+source_file = 1, E:/Users/benji/OneDrive/FPGA_Project/Study/04_half_adder/quartus_prj/db/half_adder.cbx.xml
+design_name = half_adder
+instance = comp, \sum~output , sum~output, half_adder, 1
+instance = comp, \count~output , count~output, half_adder, 1
+instance = comp, \in_1~input , in_1~input, half_adder, 1
+instance = comp, \in_2~input , in_2~input, half_adder, 1
+instance = comp, \Add0~0 , Add0~0, half_adder, 1
+instance = comp, \Add0~1 , Add0~1, half_adder, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

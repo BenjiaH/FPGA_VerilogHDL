@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jul 09 12:19:49 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : touch_ctrl_led
+Top-level Entity Name : touch_ctrl_led
+Family : Cyclone IV E
+Total logic elements : 3
+    Total combinational functions : 2
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
