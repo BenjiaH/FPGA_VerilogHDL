@@ -1,4 +1,5 @@
 {
+    "notinc1" : ".git",
     "dir1" : "rtl_work",
 	"dir2" : "verilog_libs",
 	"dir3" : "db",
