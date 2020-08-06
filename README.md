@@ -2,7 +2,7 @@
 
 ### FPGA工程仓库
 - 基于Intel® Altera Cyclone® IV EP4CE10F17C8
-- IDE: Quartus® Prime Version 18.1 Standard Edition
+- IDE: Quartus® Prime Version 18.1 Standard Edition & ModelSim® SE 2019.2
 
 ### QuartusPrjCleaner
 
