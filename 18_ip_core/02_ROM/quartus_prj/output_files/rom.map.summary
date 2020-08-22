@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Aug 22 15:05:05 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : rom
+Top-level Entity Name : rom
+Family : Cyclone IV E
+Total logic elements : 348
+    Total combinational functions : 307
+    Dedicated logic registers : 223
+Total registers : 223
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

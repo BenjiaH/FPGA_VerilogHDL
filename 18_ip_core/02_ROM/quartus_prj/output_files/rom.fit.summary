@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Aug 22 15:05:11 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : rom
+Top-level Entity Name : rom
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 328 / 10,320 ( 3 % )
+    Total combinational functions : 308 / 10,320 ( 3 % )
+    Dedicated logic registers : 223 / 10,320 ( 2 % )
+Total registers : 223
+Total pins : 8 / 180 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 423,936 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
