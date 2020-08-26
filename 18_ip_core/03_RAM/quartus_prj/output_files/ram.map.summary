@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 26 14:46:40 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : ram
+Top-level Entity Name : ram
+Family : Cyclone IV E
+Total logic elements : 356
+    Total combinational functions : 315
+    Dedicated logic registers : 223
+Total registers : 223
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
