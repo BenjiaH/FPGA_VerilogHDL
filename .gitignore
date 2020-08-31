@@ -1,6 +1,5 @@
 *.lnk
-rtl_work/
-verilog_libs/
+simulation/
 db/
 incremental_db/
 *.rpt
@@ -10,3 +9,4 @@ incremental_db/
 *.wlf
 modelsim.ini
 msim_transcript
+*.qws
