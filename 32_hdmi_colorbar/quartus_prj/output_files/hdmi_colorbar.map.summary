@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Jun 08 23:57:13 2022
+Analysis & Synthesis Status : Successful - Thu Jun 09 13:21:39 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : hdmi_colorbar
 Top-level Entity Name : hdmi_colorbar
 Family : Cyclone IV E
-Total logic elements : 369
-    Total combinational functions : 356
+Total logic elements : 372
+    Total combinational functions : 359
     Dedicated logic registers : 156
 Total registers : 172
 Total pins : 12

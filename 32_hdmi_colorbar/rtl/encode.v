@@ -71,7 +71,9 @@ always@(posedge sys_clk or negedge sys_rst_n)
         end
 
 assign  ctrl_2 = (cnt == 5'd0) || (q_m_n0 == q_m_n1) ? 1'b1 : 1'b0;
-assign  ctrl_3 = ((cnt > 5'd0) && (q_m_n1 > q_m_n0)) || ((cnt < 5'd0) && (q_m_n0 > q_m_n1))? 1'b1 : 1'b0;
+// assign  ctrl_3 = ((cnt > 5'd0) && (q_m_n1 > q_m_n0)) || ((cnt < 5'd0) && (q_m_n0 > q_m_n1))? 1'b1 : 1'b0;
+//有符号数，用最高位判断正负
+assign  ctrl_3 = ((cnt[4] == 1'b0) && (q_m_n1 > q_m_n0)) || ((cnt[4] == 1'b1) && (q_m_n0 > q_m_n1))? 1'b1 : 1'b0;
 
 always@(posedge sys_clk or negedge sys_rst_n)
     if(sys_rst_n == 1'b0)

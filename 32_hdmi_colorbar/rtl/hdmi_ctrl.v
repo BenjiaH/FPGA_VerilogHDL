@@ -20,9 +20,10 @@ module  hdmi_ctrl
     output  wire            hdmi_clk_n
 );
 
-wire [9:0] red  ;
-wire [9:0] green;
-wire [9:0] blue ;
+wire [9:0] red          ;
+wire [9:0] red_xilinx   ;
+wire [9:0] green        ;
+wire [9:0] blue         ;
 
 encode  encode_inst_r
 (
@@ -34,6 +35,17 @@ encode  encode_inst_r
     .data_in    (rgb_r      ),
 
     .data_out   (red        )
+);
+
+encode_xilinx   encode_xilinx_inst_r
+(
+    .clkin  (sys_clk    ),    // pixel clock input
+    .rstin  (~sys_rst_n ),    // async. reset input (active high)
+    .din    (rgb_r      ),    // data inputs: expect registered
+    .c0     (hsync      ),    // c0 input
+    .c1     (vsync      ),    // c1 input
+    .de     (rgb_valid  ),    // de input
+    .dout   (red_xilinx )     // data outputs
 );
 
 encode  encode_inst_g
