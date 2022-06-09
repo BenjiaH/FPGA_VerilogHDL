@@ -15,6 +15,7 @@
         "*.do",
         "*.wlf",
         "modelsim.ini",
-        "msim_transcript"
+        "msim_transcript",
+        "*.qws"
     ]
 }
