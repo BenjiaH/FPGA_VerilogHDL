@@ -1,14 +1,20 @@
 {
-    "notinc1" : ".git",
-    "dir1" : "simulation",
-    "dir2" : "db",
-    "dir3" : "incremental_db",
-    "file1" : "*.rpt",
-    "file2" : "*.qsmg",
-    "file3" : "*.bak",
-    "file4" : "*.do",
-    "file5" : "*.wlf",
-    "file6" : "modelsim.ini",
-    "file7" : "msim_transcript",
-    "file8" : "*.qws"
+    "not_inc": [
+        ".git"
+    ],
+    "dir": [
+        "rtl_work",
+        "verilog_libs",
+        "db",
+        "incremental_db "
+    ],
+    "file": [
+        "*.rps",
+        "*.qsmg",
+        "*.bak",
+        "*.do",
+        "*.wlf",
+        "modelsim.ini",
+        "msim_transcript"
+    ]
 }
